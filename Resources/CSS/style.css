@@ -30,3 +30,55 @@ nav span {
     display: inline-block;
     padding: 20px 10px;
 }
+
+.column {
+	border: 3px solid black;
+	
+}
+
+.left {
+}
+
+.left .top h2 {
+	border-bottom: 1px solid black;
+}
+
+.left .middle {
+	border: 1px solid black;
+}
+
+.left .middle h3 {
+	border-top: 1px solid black;
+}
+
+.left .bottom{
+	border: 1px solid black;
+}
+
+.left .bottom h3{
+	border-top: 1px solid black;
+}
+
+.middle {
+	
+}
+
+.middle .top {
+	border: 2px solid black;
+}
+
+.middle .middle {
+	border: 2px solid black;
+}
+
+.middle .middle h2{
+	border-bottom: 1px solid black;
+}
+
+.right  .top {
+	border: 1px solid black;
+}
+
+.right  .middle {
+	border: 1px solid black;
+}
