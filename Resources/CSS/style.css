@@ -32,19 +32,32 @@ nav span {
 }
 
 .column {
-	border: 3px solid black;
-	
+	display: flex;
+	width: 1300px;
+	padding: 30px 0px 0 0;
+	border: black 3px solid;
+	margin-left: 250px;
+	margin-right: 250px;
 }
 
 .left {
+	margin-right: 50px;
+	border: black 1px solid;
+	width: 630px;
+}
+
+.left .top {
+	width: 630px;
 }
 
 .left .top h2 {
 	border-bottom: 1px solid black;
+	
 }
 
 .left .middle {
 	border: 1px solid black;
+	width: 630px;
 }
 
 .left .middle h3 {
@@ -53,6 +66,7 @@ nav span {
 
 .left .bottom{
 	border: 1px solid black;
+	width: 630px;
 }
 
 .left .bottom h3{
@@ -60,25 +74,37 @@ nav span {
 }
 
 .middle {
+	margin-right: 50px;
+	width: 300px;
 	
 }
 
 .middle .top {
 	border: 2px solid black;
+	width: 300px;
 }
 
 .middle .middle {
 	border: 2px solid black;
+	width: 300px;
 }
 
 .middle .middle h2{
 	border-bottom: 1px solid black;
 }
 
+.right {
+	border: 1px solid black;
+	width: 200px;
+	
+}
+
 .right  .top {
+	width: 200px;
 	border: 1px solid black;
 }
 
 .right  .middle {
 	border: 1px solid black;
+	width: 200px;
 }
