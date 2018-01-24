@@ -53,7 +53,7 @@ nav span {
 	width: 630px;
 }
 
-.left .top h2 {
+.left .top h3 {
 	border-bottom: 1px solid black;
 	
 }
@@ -63,7 +63,7 @@ nav span {
 	width: 630px;
 }
 
-.left .middle h3 {
+.left .earth {
 	border-top: 1px solid black;
 }
 
@@ -72,7 +72,7 @@ nav span {
 	width: 630px;
 }
 
-.left .bottom h3{
+.left .research{
 	border-top: 1px solid black;
 }
 
@@ -92,7 +92,7 @@ nav span {
 	width: 300px;
 }
 
-.middle .middle h2{
+.middle .middle h3{
 	border-bottom: 1px solid black;
 }
 
@@ -116,9 +116,16 @@ nav span {
 	background-image: url(../Images/img-story-main.png);
 	font-family: Georgia;
   	font-weight: bold;
- 	 font-size: 40px;
+ 	 font-size: 35px;
  	 color: white;
 	display: flex;
+	height: 300px;
+	text-align: left;
+	justify-content: flex-start;
+}
+
+.left .main h3{
+	margin-top: -2px;
 }
 
 .left .earth {
@@ -128,22 +135,42 @@ nav span {
    	font-weight: bold;
   	font-size: 30px;
   	color: white;
+	height: 300px;
+	justify-content: center;
+}
+
+.left .earth h4 {
+	margin-top: -2px;
 }
 
 .left .research {
 	background-image: url(../Images/img-story-3.png);
 	font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+ 	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
 	display: flex;
+	height: 300px;
+	justify-content: center;
+	text-align: center;
+}
+
+.left .research h4 {
+	margin-top: -2px;
 }
 
 .middle .cats{
 	background-image: url(../Images/img-story-1.png);
-	font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
 	display: flex;
+	font-family: Georgia;
+ 	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+	height: 300px;
+	justify-content: center;
+	text-align: center;
+}
+
+.middle .cats h3 {
+	margin-top: -2px;
 }
