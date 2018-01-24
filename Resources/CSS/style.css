@@ -35,7 +35,6 @@ nav span {
 	display: flex;
 	width: 1300px;
 	padding: 30px 0px 0 0;
-	border: black 3px solid;
 	margin-left: 250px;
 	margin-right: 250px;
 	 font-family: Georgia;
@@ -44,36 +43,32 @@ nav span {
 }
 
 .left {
-	margin-right: 50px;
-	border: black 1px solid;
+	margin-right: 70px;
 	width: 630px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .left .top {
 	width: 630px;
 }
 
-.left .top h3 {
-	border-bottom: 1px solid black;
-	
+.left .middle {
+  width: 310px;
 }
 
-.left .middle {
-	border: 1px solid black;
-	width: 630px;
+.left .bottom {
+   width: 310px;
+
 }
 
 .left .earth {
-	border-top: 1px solid black;
+	
 }
 
-.left .bottom{
-	border: 1px solid black;
-	width: 630px;
-}
-
-.left .research{
-	border-top: 1px solid black;
+.last-two{
+	display: flex;
+	padding-bottom: 50px;
 }
 
 .middle {
@@ -83,32 +78,32 @@ nav span {
 }
 
 .middle .top {
-	border: 2px solid black;
+	
 	width: 300px;
 }
 
 .middle .middle {
-	border: 2px solid black;
+	
 	width: 300px;
 }
 
 .middle .middle h3{
-	border-bottom: 1px solid black;
+	
 }
 
 .right {
-	border: 1px solid black;
+	
 	width: 200px;
 	
 }
 
 .right  .top {
 	width: 200px;
-	border: 1px solid black;
+	
 }
 
 .right  .middle {
-	border: 1px solid black;
+	
 	width: 200px;
 }
 
@@ -130,13 +125,13 @@ nav span {
 
 .left .earth {
 	background-image: url(../Images/img-story-2.png);
-	display: flex;
 	font-family: Georgia;
    	font-weight: bold;
   	font-size: 30px;
   	color: white;
 	height: 300px;
 	justify-content: center;
+	text-align: center;
 }
 
 .left .earth h4 {
@@ -149,7 +144,6 @@ nav span {
  	font-weight: bold;
   	font-size: 30px;
   	color: white;
-	display: flex;
 	height: 300px;
 	justify-content: center;
 	text-align: center;
