@@ -38,6 +38,9 @@ nav span {
 	border: black 3px solid;
 	margin-left: 250px;
 	margin-right: 250px;
+	 font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .left {
@@ -107,4 +110,40 @@ nav span {
 .right  .middle {
 	border: 1px solid black;
 	width: 200px;
+}
+
+.left .main {
+	background-image: url(../Images/img-story-main.png);
+	font-family: Georgia;
+  	font-weight: bold;
+ 	 font-size: 40px;
+ 	 color: white;
+	display: flex;
+}
+
+.left .earth {
+	background-image: url(../Images/img-story-2.png);
+	display: flex;
+	font-family: Georgia;
+   	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+}
+
+.left .research {
+	background-image: url(../Images/img-story-3.png);
+	font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+	display: flex;
+}
+
+.middle .cats{
+	background-image: url(../Images/img-story-1.png);
+	font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+	display: flex;
 }
