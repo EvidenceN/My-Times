@@ -194,3 +194,40 @@ nav span {
 .newsbite .last-line {
 	border-bottom: 1px solid black;
 }
+
+footer {
+	background-color: MediumAquamarine;  
+  font-family: Verdana;
+  font-size: 12px;
+	height: 300px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 200px;
+}
+
+footer .copy {
+	margin-top: -120px;
+	
+}
+
+footer .nav2 {
+	margin-bottom: -120px;
+}
+
+footer .nav2 a {
+	padding: 0 10px;
+}
+
+footer .time{
+	margin-bottom: -120px;
+	font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer .time span{
+	padding: 0 30px 0 20px;
+}
