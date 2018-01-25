@@ -204,7 +204,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 0 200px;
+	width: 1600px
 }
 
 footer .copy {
@@ -217,7 +217,7 @@ footer .nav2 {
 }
 
 footer .nav2 a {
-	padding: 0 10px;
+	padding: 0 20px;
 }
 
 footer .time{
